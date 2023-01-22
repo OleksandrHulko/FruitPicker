@@ -93,7 +93,7 @@ GameObject:
   - component: {fileID: 7702805906763462977}
   - component: {fileID: 8384680614216502089}
   - component: {fileID: -8736907188204016810}
-  - component: {fileID: -3257880039098291597}
+  - component: {fileID: 2684140228570240256}
   m_Layer: 3
   m_Name: "\u042F\u0431\u043B\u0443\u043A\u043E"
   m_TagString: Untagged
@@ -179,8 +179,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbd0ce43b4f8c7b40851eb25c5533e8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!64 &-3257880039098291597
-MeshCollider:
+  fruitType: 0
+--- !u!135 &2684140228570240256
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -189,10 +190,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4144274157580171831, guid: cf06749871ea69d45b4348d5d9a17c10, type: 3}
+  serializedVersion: 2
+  m_Radius: 0.08
+  m_Center: {x: 0, y: 0.056129713, z: 0}
 --- !u!1 &8769094903326120860
 GameObject:
   m_ObjectHideFlags: 0
